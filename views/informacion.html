@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LAVIGNE</title>
+	<link rel="shortcut icon" href="../img/favicon.png">
+	<!-- mi css -->|
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<div class="contenedor">
+	<div id="nav">
+	<nav class="nav">
+		<h1>LAVIGNE</h1>
+		<a href="../index.html">
+		<img src="../img/logo.png" alt="imagen del logo">
+		</a>
+		<ul>
+			<li>
+				<a href="Productos.html">productos</a>
+			</li>
+			<li>
+				<a href="Promociones.html">promociones</a>
+			</li>
+			<li>
+				<a href="Nosotros.html">nosotros</a>
+			</li>
+			<li>
+				<a href="Informacion.html">informacion</a>
+			</li>
+		</ul>
+	</nav>
+	<!-- ends nav -->
+	<header class="encabezado">
+	<link rel="stylesheet" href="../css/animate.css">
+	</header>
+	<!-- ends header -->
+	<main id="informacion">
+		<section class="info">
+			<form action="envio.php" id="informacion.html">
+				<fieldset>
+					<legend>info personal</legend>
+					<label for="nombre">nombre:</label>
+					<br>
+					<input type="text" id="nombre" placeholder="francisco">
+					<label for="email">email:</label>
+					<input type="email" id="email" placeholder="mail@gmail.com">
+				</fieldset>
+				<br>
+				<fieldset>
+					<legend>info de venta</legend>
+					<label for="buzos">buzos</label>	<input type="checkbox" id="buzos" value="buzos">
+					<br>
+					<label for="babuchas">babuchas</label>
+					<input type="checkbox" id="babuchas" value="babuchas">
+				</fieldset>
+				<fieldset>
+					<legend>info de envio</legend>
+					<label for="local">retiro en el local</label>
+					<input type="radio" id="local" value="local" name="envio">
+					<br>
+					<label for="casa">envio a mi domicilio</label>
+					<input type="radio" id="casa" value="casa" name="envio">
+					<br>
+					<label for="localidad">provincia</label>
+					<select name="" id="localidad">
+						<option value="CABA">ciudad de bs as</option>
+						<option value="mar de plata">mar de plata</option>
+						<option value="interior">interior del pais</option>
+					</select>
+				</fieldset>
+				<label for="mensaje">deje su mensaje</label>
+				<br>
+				<textarea name="" id="mensaje" cols="30" rows="10" placeholder="ingrese su consulta"></textarea>
+				<br>
+				<input type="reset" value="cancelar">
+				<input type="submit" value="enviar">
+			</form>
+		</section>
+		<!-- ends form -->
+		<section></section>
+		<!-- ends map -->
+	</main>
+	<footer class="pie">
+		<h3>Seguinos en nuestras redes</h3>
+		<a href="https://www.instagram.com/" target="_blank">
+			<img src="../img/instagram.png" alt="logo de instagram">
+		</a>
+		<a href="https://www.twitter.com" target="_blank">
+			<img src="../img/twitter.png" alt="logo de twitter">
+		</a>
+		<a href="https://www.whatsapp.com/">
+		<img src="../img/whatsapp.png" alt="logo de wapp">
+		</a> 
+		<h4 class="text-regular">+54929955678234</h4>
+	</footer>
+</body>
+</html>
